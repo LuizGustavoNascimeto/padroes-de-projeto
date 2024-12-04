@@ -27,7 +27,6 @@ public class Main {
         protected abstract Forma criarForma();
     }
 
-    // Criador Concreto 1: Fábrica de Círculos
     static class CirculoFactory extends FormaFactory {
         @Override
         protected Forma criarForma() {
@@ -35,7 +34,6 @@ public class Main {
         }
     }
 
-    // Criador Concreto 2: Fábrica de Retângulos
     static class RetanguloFactory extends FormaFactory {
         @Override
         protected Forma criarForma() {
@@ -44,6 +42,12 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        // Código principal será adicionado nos próximos commits.
+        // Criar e desenhar um círculo
+        FormaFactory fabricaCirculo = new CirculoFactory();
+        fabricaCirculo.criarEDesenharForma();
+
+        // Criar e desenhar um retângulo
+        FormaFactory fabricaRetangulo = new RetanguloFactory();
+        fabricaRetangulo.criarEDesenharForma();
     }
 }
