@@ -29,6 +29,8 @@ Definir uma interface para criar um objeto, mas permitir que as subclasses decid
 
 ### UML
 
-Na pasta `uml`, pode ser encontrados um arquivo PNG:
+Na pasta `uml`, pode ser encontrado um arquivo jpg:
 
-- **`generic.png`**: apresenta uma demonstração genérica do funcionamento do padrão.
+- **`generic.jpg`**: apresenta uma demonstração genérica do funcionamento do padrão.
+
+![Texto Alternativo](./uml/generic.jpg)
