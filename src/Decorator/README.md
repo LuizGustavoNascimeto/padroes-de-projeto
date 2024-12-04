@@ -5,7 +5,7 @@ O **Decorator** é um padrão de projeto estrutural que permite adicionar compor
 
 ---
 
-## Problema que Ele Resolve
+## Problema que ele Resolve
 Imagine que você tem uma classe básica que realiza notificações por e-mail. Se precisar adicionar notificações por SMS, Slack ou outros canais, criar subclasses específicas para todas as combinações possíveis se tornaria inviável. O Decorator resolve isso permitindo que novos comportamentos sejam adicionados dinamicamente, evitando a explosão de subclasses e tornando o código mais flexível.
 
 ---
@@ -55,3 +55,5 @@ Exemplo de Código-Fonte: exemplo.java
 - Complexidade Adicional: Pode aumentar a complexidade do código, especialmente com muitas camadas de decoradores.
 - Dependência da Ordem: O comportamento final pode depender da ordem em que os decoradores são aplicados.
 - Debugging Difícil: Pode ser complicado rastrear problemas devido ao encadeamento de decoradores.
+
+O padrão Decorator é uma ferramenta poderosa quando aplicado corretamente. Ele resolve problemas de extensão de funcionalidades de maneira modular e elegante, mas é importante usá-lo com parcimônia para evitar um código excessivamente complexo.
