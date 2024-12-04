@@ -30,3 +30,10 @@ Converter a interface de uma classe em outra interface esperada pelos clientes. 
 
 - Pode tornar o código mais complexo devido à introdução de classes adicionais.
 - Pode levar a uma sobrecarga de desempenho devido ao nível extra de indireção.
+
+### UML
+
+Na pasta `uml`, podem ser encontrados dois arquivos PNG:
+
+- **`generic.png`**: apresenta uma demonstração genérica do funcionamento do padrão.  
+- **`example.png`**: ilustra o mesmo exemplo implementado no código localizado em `example.cpp`.
