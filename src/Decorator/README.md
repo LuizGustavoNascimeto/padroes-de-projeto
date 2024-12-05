@@ -19,7 +19,7 @@ Imagine que você tem uma classe básica que realiza notificações por e-mail. 
 
 ## Diagrama UML do Decorator
 
-```mermaid
+```
 classDiagram
     direction LR
     class Component {
