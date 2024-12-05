@@ -23,6 +23,7 @@ A estrutura do repositório é organizada da seguinte forma:
   - facade
   - decorator
   - factory
+
 Em cada pasta, há pelo menos um arquivo README.md que explica o padrão de projeto, juntamente com um arquivo contendo um exemplo implementado em uma linguagem de programação.
 
 ## Como Contribuir
